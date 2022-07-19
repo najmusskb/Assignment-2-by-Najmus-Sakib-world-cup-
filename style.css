@@ -1,0 +1,161 @@
+/* part-1 */
+
+.header-part-flex {
+    background-color: black;
+
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+    align-items: center;
+
+
+
+}
+
+.content {
+    margin-left: 100px;
+    width: 500px;
+    text-align: justify;
+}
+
+.marselo {
+
+    margin-left: 50px;
+}
+
+.btn-1 {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+
+/* part-02 */
+
+.main-part-flex-2 {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+
+
+}
+
+
+.upcoming-match-part {
+    width: 30%;
+    height: 240px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#Upcoming-match {
+
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(242, 233, 237);
+    color: black;
+    text-align: center;
+
+}
+
+
+
+
+#All-Group {
+
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(242, 233, 237);
+    color: black;
+    text-align: center;
+
+}
+
+#Blog {
+
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: red;
+    color: black;
+    text-align: center;
+
+}
+
+
+/* grid part */
+
+.three-flex-card-part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    /* grid-template-rows: 2em repeat(1, 1fr); */
+    margin-left: 70px;
+}
+
+
+
+
+.icon-flex {
+
+    display: flex;
+    grid-gap: 30px;
+}
+
+
+
+
+
+
+/* footer part */
+
+.footer-part {
+
+
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 10%;
+    /* Four links of equal widths */
+    text-align: center;
+    margin-left: 50px;
+
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.navbar a.active {
+    background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
