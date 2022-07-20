@@ -1,0 +1,59 @@
+#Blog {
+
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    text-align: center;
+
+}
+
+
+
+#Upcoming-match {
+
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: red;
+    color: black;
+    text-align: center;
+
+
+}
+
+
+.grid-image-flex {
+    display: flex;
+
+}
+
+.three-flex-card-part-2 {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    /* grid-template-rows: 2em repeat(1, 1fr); */
+    margin-left: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+#vs {
+
+    margin-top: 40px;
+    padding: 2px;
+
+}
+
+.grid-1 {
+
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
