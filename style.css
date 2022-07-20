@@ -113,6 +113,19 @@
     background-color: rgb(205, 99, 99);
 }
 
+.border-remove {
+
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(205, 99, 99);
+}
+
+
+
+
+
+
 .three-flex-card-part {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -194,11 +207,19 @@
 
 
 
+.view-all {
+
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 300px;
+    background-color: red;
+    margin-bottom: 20px;
+}
 
 
 
 
-/*  responsive For Tablet range 786 */
+/*  Responsive For Tablet range 786 */
 
 
 @media (max-width:786px) {
@@ -257,6 +278,25 @@
         width: 100%;
 
     }
+
+    .border-remove {
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+@media (min-width:786px) {
+
+
+    .view-all {
+        display: none;
+
+    }
 }
 
 
@@ -268,19 +308,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* responsive for mobile 480 */
+/* Responsive for mobile 480 */
 
 
 
@@ -325,6 +353,10 @@
         grid-gap: 1em;
         width: 100%;
 
+    }
+
+    .view-all {
+        display: none;
     }
 
 
