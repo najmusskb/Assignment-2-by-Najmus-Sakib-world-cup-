@@ -393,8 +393,8 @@
         border-radius: 20px;
         margin-bottom: 100px; */
 
-        width: 80%;
-        height: 240px;
+        width: 90%;
+        height: 300px;
         background-color: black;
         color: white;
         padding: 20px;
@@ -408,12 +408,18 @@
 
     #All-Group {
         height: 20px;
-        margin-left: 20px;
+        margin-left: 15px;
+        padding-bottom: 30px;
+
+        margin-bottom: 18px;
     }
 
     #Blog {
         height: 20px;
-        margin-left: 20px;
+        margin-left: 15px;
+        padding-bottom: 30px;
+
+        margin-bottom: 18px;
     }
 
 
