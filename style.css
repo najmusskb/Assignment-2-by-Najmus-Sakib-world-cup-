@@ -211,7 +211,7 @@
 
     padding: 10px;
     border-radius: 5px;
-    margin-left: 300px;
+    margin-left: 400px;
     background-color: red;
     margin-bottom: 20px;
 }
@@ -219,7 +219,7 @@
 
 
 
-/*  Responsive For Tablet range 786 */
+/*  Responsive For Tablet range 786 --- Ipad Mini*/
 
 
 @media (max-width:786px) {
@@ -227,10 +227,16 @@
     .content h1 {
         color: yellow;
 
+
     }
+
 
     .header-part-flex {
         width: 100%;
+
+
+
+
 
     }
 
@@ -281,6 +287,11 @@
 
     .border-remove {
         display: none;
+    }
+
+    .navbar {
+
+        text-align: center;
     }
 
 
@@ -358,6 +369,54 @@
     .view-all {
         display: none;
     }
+
+
+
+    .footer-margin {
+        margin-left: 100px;
+
+    }
+
+
+
+
+
+
+    .upcoming-match-part {
+        /* margin-left: 50px;
+        display: block;
+        height: 100px;
+
+        width: 80%;
+        color: white;
+        padding: 20px;
+        border-radius: 20px;
+        margin-bottom: 100px; */
+
+        width: 80%;
+        height: 240px;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        border-radius: 20px;
+        display: block;
+        margin-left: -50px;
+        margin-left: 70px;
+
+
+    }
+
+    #All-Group {
+        height: 20px;
+        margin-left: 20px;
+    }
+
+    #Blog {
+        height: 20px;
+        margin-left: 20px;
+    }
+
+
 
 
 }
